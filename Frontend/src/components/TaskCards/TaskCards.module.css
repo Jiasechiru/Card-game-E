@@ -1,0 +1,27 @@
+.task-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 340px;
+  width: 260px;
+  background-color: rgb(78, 255, 87);
+
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.task-card-theme {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.task-list {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 10px;
+}

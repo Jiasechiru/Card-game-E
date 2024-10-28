@@ -1,0 +1,49 @@
+.player-card-game {
+  width: 180px;
+  border: 3px solid black;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.player-card-name {
+  font-size: 28px;
+  margin: 0;
+}
+
+.player-card-score {
+  font-weight: 400;
+}
+
+.red-card {
+  border-color: rgb(197, 0, 0);
+  background-color: rgb(255, 242, 242);
+}
+
+.yellow-card {
+  border-color: rgb(255, 255, 0);
+  background-color: rgb(255, 255, 230);
+}
+
+.green-card {
+  border-color: rgb(0, 184, 0);
+  background-color: rgb(234, 255, 234);
+}
+
+.blue-card {
+  border-color: rgb(0, 0, 166);
+  background-color: rgb(224, 224, 255);
+}
+
+.orange-card {
+  border-color: orange;
+  background-color: rgb(255, 248, 236);
+}
+
+.purple-card {
+  border-color: purple;
+  background-color: rgb(255, 235, 255);
+}
